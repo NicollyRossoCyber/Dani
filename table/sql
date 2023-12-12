@@ -1,0 +1,7 @@
+CREATE TABLE Escolas (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    endereco VARCHAR(255) NOT NULL,
+    cidade VARCHAR(255) NOT NULL,
+    quantidade_alunos INT NOT NULL
+);
